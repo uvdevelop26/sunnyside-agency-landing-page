@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github solution](https://github.com/uvdevelop26/sunnyside-agency-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://uvdevelop26.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 
