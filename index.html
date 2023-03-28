@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body>
+  <!-- header area -->
+  <div class="container-header">
+    <nav class="navbar-header">
+      <div class="logo-toggle-header">
+        <img src="./images/logo.svg" alt="sunnyside logo" class="logo" srcset="">
+        <button class="btn-nemu-togle" role="button" aria-label="toggle menu button">
+          <img src="./images/icon-hamburger.svg" alt="toggle menu" class="toggle-btn">
+        </button>
+      </div>
+      <div class="menu-items display-menu">
+        <a href="#" class="nav-links">About</a>
+        <a href="#" class="nav-links">Services</a>
+        <a href="#" class="nav-links">Projects</a>
+        <a href="#" class="contact-link">Contact</a>
+      </div>
+    </nav>
+    <header>
+      <h1 class="header-title">We are creatives</h1>
+      <img src="./images/icon-arrow-down.svg" alt="arrow down">
+    </header>
+  </div>
+  <!-- "transform your brand and "stand out to the right audience"  area -->
+  <section class="tranform-section">
+    <div class="section-image-container">
+      <picture>
+        <source media="(min-width: 768px)" srcset="./images/desktop/image-transform.jpg" />
+        <img src="./images/mobile/image-transform.jpg" alt="egg image" class="section-image">
+      </picture>
+    </div>
+    <div class="text-area">
+      <h2 class="title">Transform your brand</h2>
+      <p class="paragraph paragraph-lh">
+        We are a full-service creative agency specializing in helping brands grow fast.
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <div>
+        <a href="#" class="btn-learn transform-learn">
+          <span class="btn-text">Learn more</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="stand-out-section">
+    <div class="section-image-container">
+      <picture>
+        <source media="(min-width: 768px)" srcset="./images/desktop/image-stand-out.jpg" />
+        <img src="images/mobile/image-stand-out.jpg" alt="stand out" class="section-image">
+      </picture>
+    </div>
+    <div class="text-area">
+      <h2 class="title"> Stand out to the right audience</h2>
+      <p class="paragraph paragraph-lh">
+        Using a collaborative formula of designers, researchers, photographers, videographers,
+        and copywriters, we’ll build and extend your brand in digital places.
+      </p>
+      <div>
+        <a href="#" class="btn-learn stand-out-learn">
+          <span class="btn-text">Learn more</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- GRAPHIC DESIGN AND PHOTOGRAPHY SECTION -->
+  <section class="design-photo">
+    <div class="design-container">
+      <div>
+        <h3 class="sub-title">Graphic design</h3>
+      </div>
+      <p class="sub-paragraph paragraph-lh">
+        Great design makes you memorable. We deliver artwork that underscores your brand message
+        and captures potential clients’ attention.
+      </p>
+    </div>
+    <div class="photography-container">
+      <div>
+        <h3 class="sub-title">Photography</h3>
+        <p class="sub-paragraph paragraph-lh">Increase your credibility by getting the most stunning,
+          high-quality photos that improve your business image.</p>
+      </div>
+    </div>
+  </section>
+  <!-- TESTIMONIALS AREA -->
+  <section class="testimonial-area">
+    <h3 class="testimonial-title">Client testimonials</h3>
+    <div class="testimonial-area-container">
+      <div class="testimonial">
+        <div class="profile-container">
+          <img src="./images/image-emily.jpg" class="profile" alt="picture" srcset="">
+        </div>
+        <p class="testimonial-paragraph paragraph-lh">
+          We put our trust in Sunnyside and they delivered,
+          making sure our needs were met and deadlines were always hit.
+        </p>
+        <div>
+          <span class="testimonial-name display-block">Emily R.</span>
+          <span class="testimonial-job display-block"> Marketing Director</span>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="profile-container">
+          <img src="./images/image-thomas.jpg" class="profile" alt="profile" srcset="">
+        </div>
+        <p class="testimonial-paragraph paragraph-lh">
+          Sunnyside’s enthusiasm coupled with their keen interest
+          in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
+        <span class="testimonial-name display-block">Thomas S.</span>
+        <span class="testimonial-job display-block">Chief Operating Officer</span>
+      </div>
+      <div class="testimonial">
+        <div class="profile-container">
+          <img src="./images/image-jennie.jpg" class="profile" alt="profile" srcset="">
+        </div>
+        <p class="testimonial-paragraph paragraph-lh">
+          Incredible end result! Our sales increased over 400%
+          when we worked with Sunnyside. Highly recommended!
+        </p>
+        <span class="testimonial-name display-block">Jennie F.</span>
+        <span class="testimonial-job display-block">Business Owner</span>
+      </div>
+    </div>
+  </section>
+  <!-- PHOTOS GRID AREA -->
+  <section class="grid-photos">
+    <div class="grid-area-photos">
+      <div class="grid-image-container">
+        <picture>
+          <source media="(min-width: 768px)" srcset="./images/desktop/image-gallery-milkbottles.jpg" />
+          <img src="./images/mobile/image-gallery-milkbottles.jpg" class="grid-image" alt="milkbottles" srcset="">
+        </picture>
+      </div>
+      <div class="grid-image-container">
+        <picture>
+          <source media="(min-width: 768px)" srcset="./images/desktop/image-gallery-orange.jpg" />
+          <img src="./images/mobile/image-gallery-orange.jpg" class="grid-image" alt="orange" srcset="">
+        </picture>
+      </div>
+      <div class="grid-image-container">
+        <picture>
+          <source media="(min-width: 768px)" srcset="./images/desktop/image-gallery-cone.jpg" />
+          <img src="./images/mobile/image-gallery-cone.jpg" class="grid-image" alt="ice cream cone" srcset="">
+        </picture>
+      </div>
+      <div class="grid-image-container">
+        <picture>
+          <source media="(min-width: 768px)" srcset="./images/desktop/image-gallery-sugarcubes.jpg" />
+          <img src="./images/mobile/image-gallery-sugar-cubes.jpg" class="grid-image" alt="sugar cubes" srcset="">
+        </picture>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <h4 class="footer-logo">
+      <img src="./images/logo.svg" class="footer-logo-svg" alt="sunnyside logo">
+    </h4>
+    <div class="footer-links-container">
+      <a href="#" class="footer-links">About</a>
+      <a href="#" class="footer-links">Services</a>
+      <a href="#" class="footer-links">Projects</a>
+    </div>
+    <div class="footer-social-media">
+      <a href="#" class="social-media-link">
+        <img src="./images/icon-facebook.svg" alt="facebook link" class="social-media-icon" >
+      </a>
+      <a href="#" class="social-media-link">
+        <img src="./images/icon-instagram.svg" alt="instagram link" class="social-media-icon" >
+      </a>
+      <a href="#" class="social-media-link">
+        <img src="./images/icon-twitter.svg" alt="twitter link" class="social-media-icon" >
+      </a>
+      <a href="#" class="social-media-link">
+        <img src="./images/icon-pinterest.svg" alt="pinterest link" class="social-media-icon">
+      </a>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
