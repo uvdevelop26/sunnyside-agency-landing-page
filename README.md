@@ -28,8 +28,7 @@ Users should be able to:
 ### Screenshot
 
 ![destork-preview](./images/screenshots/recorted-screen-shot.png)
-![mobile-design](./images/screenshots/mobile-screen-shot.png)
-![desktop-design](./images/screenshots/desktop-screen-shot.png)
+
 
 
 
